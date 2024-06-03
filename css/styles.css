@@ -474,12 +474,15 @@ padding: 100px 0
 }
 
 .btn-modal {
+    position: absolute;
+    border: 1px solid #434455;
     background-color: #d2d3da;
     border-radius: 100%;
-    border: 1px solid #434455;
-    position: absolute;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
 
 .modal-text {
@@ -494,11 +497,6 @@ padding: 100px 0
 
 .modal-svg {
     fill: black;
-    stroke: #111111;
-    position: absolute;
-    left: 24px;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .modal-label {
@@ -587,6 +585,26 @@ padding: 100px 0
     height: 336px;
     margin: 16px 24px;
 }
+
+.form-field {
+  display: flex;  
+}
+
+.label-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.acent-privacy-policy {
+    line-height: 133%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4D5AE5;
+}
+
 
 .modal-btn {
     font-family: "Roboto", sans-serif;
