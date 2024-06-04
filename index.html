@@ -502,10 +502,11 @@
                     class="modal-input"
                     type="text"
                     name="username"
-                    placeholder=""
                     id="username"
+                    maxlength=""
+                    minlength=""
                     />
-                  <svg class="modal-icon" width="8" height="8">
+                  <svg class="modal-icon" width="12" height="12">
                     <use href="./images/icons.svg#icon-person-black"></use>
                   </svg>
                 </div>
@@ -520,9 +521,11 @@
                       type="text"
                       name="phone"
                       id="phone"
+                      maxlength=""
+                      minlength=""
                       required
                       />
-                      <svg class="modal-icon" width="8" height="8">
+                      <svg class="modal-icon" width="12" height="12">
                         <use href="./images/icons.svg#icon-tel"></use>
                       </svg>
                   </div>
@@ -538,8 +541,10 @@
                     name="e-mail"
                     id="e-mail"
                     required
+                    maxlength=""
+                    minlength=""
                     />
-                    <svg class="modal-icon" width="8" height="8">
+                      <svg class="modal-icon" width="12" height="12">
                         <use href="./images/icons.svg#icon-envelope"></use>
                       </svg>
                       </div> 
@@ -549,19 +554,28 @@
                 <label class="comment"><span>Comment</span>
                   <textarea
                   type="text"
-                  name="comment-one"
-                  id="comment"
-                  class="modal-comment"
-                  placeholder="Short issue summary"
-                  >
-                  </textarea>
+                  name="comment-title"
+                  class="modal-comment"placeholder="Text input"></textarea>
                 </label>
-               </div> 
-                <div class="form-field">
-                  <input type="checkbox" name="privacy policy" value="privacy policy" id="Privacy Policy">
-                  <label class="label-text" for="I accept the terms and conditions of the">I accept the terms and conditions of the<span class="acent-privacy-policy">Privacy Policy</span></label>
+                </div> 
+                    <label class="form-checkbox">
+                      <span class="checkbox-origin">
+                        <input class="checkbox" 
+                          type="checkbox" 
+                          name="checkbox" 
+                          value="checkbox" 
+                          id="form-checkbox"/>
+                        </span>
+                        <svg class="check-icon" width="12" height="12">
+                          <use href="./images/icons.svg#icon-checkbox"></use>
+                        </svg>
+                        <svg class="check-icon-two" width="12" height="12">
+                          <use href="./images/icons.svg#icon-check"></use>
+                      </svg>
+                      </label>
+                  <label class="label-text" for="I accept the terms and conditions of the">I accept the terms and conditions of the <span class="acent-privacy-policy">Privacy Policy</span></label>
+                  <button class="modal-btn" type="submit">Send</button>
                 </div>
-            <button class="modal-btn" type="submit">Send</button>
           </form>
         </div>
       </div>
