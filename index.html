@@ -303,8 +303,8 @@
         </div>
       </section>
 
-        <!--Our Portfolio section4-->
-        <section class="section our-portfolio">
+      <!--Our Portfolio section4-->
+      <section class="section our-portfolio">
         <div class="container">
           <h2 class="portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -424,7 +424,7 @@
             </li>
           </ul>
         </div>
-        </section>
+      </section>
     </main>
     <footer class="background">
       <div class="container footer-info">
@@ -473,15 +473,18 @@
         <div class="footer-form">
           <p class="form-subscribe">Subscribe</p>
           <form class="form">
-            <input class="form-input" 
+            <input
+              class="form-input"
               id="footer-email"
-              type="email" 
-              name="footer-email" 
-              placeholder="E-mail" />
-              <button class="form-btn" type="submit"><span class="text-form">Subscribe</span>
-                <svg class="form-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
+              type="email"
+              name="footer-email"
+              placeholder="E-mail"
+            />
+            <button class="form-btn" type="submit">
+              <span class="text-form">Subscribe</span>
+              <svg class="form-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
             </button>
           </form>
         </div>
@@ -496,91 +499,94 @@
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
-        <form class="modal-form" name="modal">
-          <div class="modal-field">
-            <label class="modal-label">
-              <span class="label-name">Name</span>
-              <div class="modal-field-wrap">
-                <input
-                  class="modal-input"
-                  type="text"
-                  name="username"
-                  id="username"
-                  maxlength=""
-                  minlength=""
-                  required
-                  />
-                  <svg class="modal-icon" width="12" height="12">
-                    <use href="./images/icons.svg#icon-person-black"></use>
-                  </svg>
-              </div>
-            </label>
-          </div>
-          <div class="modal-field">
-            <label class="modal-label">
-              <span class="label-name">Phone</span>
-                <div class="modal-field-wrap">
-                  <input
-                    class="modal-input"
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    maxlength=""
-                    minlength=""
-                    required
-                  />
-                  <svg class="modal-icon" width="12" height="12">
-                    <use href="./images/icons.svg#icon-tel"></use>
-                  </svg>
-                </div>
-              </label>
-          </div>
-          <div class="modal-field">
-            <label class="modal-label">
-              <span class="label-name">E-mail</span>
-              <div class="modal-field-wrap">
-                <input
-                  class="modal-input"
-                  type="text"
-                  name="e-mail"
-                  id="e-mail"
-                  required
-                  maxlength=""
-                  minlength=""
-                  required
-                />
-                  <svg class="modal-icon" width="12" height="12">
-                    <use href="./images/icons.svg#icon-envelope"></use>
-                  </svg>
-              </label>
-          </div>
-          <div class="modal-field">
-            <label class="user-comment">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                class="modal-comment"
-                placeholder="Text input"
-              >
-              </textarea>
-          </div> 
-          <div class="modal-field">
-            <input 
-              class="modal-check visually-hidden"
-              type="checkbox" 
-              name="policy" 
-              value="true" 
-              id="policy"/>
-            <label for="policy" class="modal-check-text">
-              <span>
-                <svg class="check-icon" width="10" height="8">
-                  <use href="images/icons.svg#icon-check"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the <span class="acent-privacy-policy"> Privacy Policy</span></label> 
-              <button class="modal-btn" type="submit">Send</button>
-          </div>
-        </form>
+        <form class="modal-form" name="modal"></form>
+        <div class="modal-field">
+          <label class="modal-label">
+            <span class="label-name">Name</span>
+            <div class="modal-field-wrap">
+              <input
+                class="modal-input"
+                type="text"
+                name="username"
+                id="username"
+                maxlength=""
+                minlength=""
+                required
+              />
+              <svg class="modal-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </label>
+        </div>
+        <div class="modal-field">
+          <label class="modal-label">
+            <span class="label-name">Phone</span>
+            <div class="modal-field-wrap">
+              <input
+                class="modal-input"
+                type="text"
+                name="phone"
+                id="phone"
+                maxlength=""
+                minlength=""
+                required
+              />
+              <svg class="modal-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
+            </div>
+          </label>
+        </div>
+        <div class="modal-field">
+          <label class="modal-label">
+            <span class="label-name">E-mail</span>
+            <div class="modal-field-wrap">
+              <input
+                class="modal-input"
+                type="text"
+                name="e-mail"
+                id="e-mail"
+                required
+                maxlength=""
+                minlength=""
+                required
+              />
+              <svg class="modal-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+            </div>
+          </label>
+        </div>
+        <div class="modal-field">
+          <label class="user-comment">Comment</label>
+          <textarea
+            name="user-comment"
+            id="user-comment"
+            class="modal-comment"
+            placeholder="Text input"
+          >
+          </textarea>
+        </div>
+        <div class="modal-field">
+          <input
+            class="modal-check visually-hidden"
+            type="checkbox"
+            name="policy"
+            value="true"
+            id="policy"
+          />
+          <label for="policy" class="modal-check-text">
+            <span>
+              <svg class="check-icon" width="10" height="8">
+                <use href="images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <span class="acent-privacy-policy"> Privacy Policy</span></label
+          >
+          <button class="modal-btn" type="submit">Send</button>
+        </div>
       </div>
     </div>
   </body>
