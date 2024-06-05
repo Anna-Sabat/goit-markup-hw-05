@@ -485,7 +485,7 @@
       </div>
     </footer>
 <!--модальне вікно-->
-     <div class="modal-overlay">
+     <div class="is-open modal-overlay">
       <div class="modal">
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <button class="btn-modal" type="button">
@@ -547,33 +547,32 @@
                       <svg class="modal-icon" width="12" height="12">
                         <use href="./images/icons.svg#icon-envelope"></use>
                       </svg>
-                      </div> 
+                </div> 
               </label>
             </div>
-               <div class="comment-field">
-                <label class="comment"><span>Comment</span>
+              <div class="modal-field">
+                <label class="user-comment">Comment</label>
                   <textarea
-                  type="text"
-                  name="comment-title"
-                  class="modal-comment"placeholder="Text input"></textarea>
-                </label>
-                </div> 
-                    <label class="form-checkbox">
-                      <span class="checkbox-origin">
-                        <input class="checkbox" 
-                          type="checkbox" 
-                          name="checkbox" 
-                          value="checkbox" 
-                          id="form-checkbox"/>
-                        </span>
-                        <svg class="check-icon" width="12" height="12">
-                          <use href="./images/icons.svg#icon-checkbox"></use>
-                        </svg>
-                        <svg class="check-icon-two" width="12" height="12">
-                          <use href="./images/icons.svg#icon-check"></use>
+                  name="user-comment"
+                  id="user-comment"
+                  class="modal-comment"
+                  placeholder="Text input"
+                  ></textarea>
+              </div> 
+                <div class="modal-field">
+                  <input 
+                    class="modal-check visually-hidden"
+                    type="checkbox" 
+                    name="policy" 
+                    value="true" 
+                    id="policy"/>
+                  <label for="policy" class="modal-check-text">
+                    <span>
+                      <svg class="check-icon" width="10" height="8">
+                        <use href="images/icons.svg#icon-check"></use>
                       </svg>
-                      </label>
-                  <label class="label-text" for="I accept the terms and conditions of the">I accept the terms and conditions of the <span class="acent-privacy-policy">Privacy Policy</span></label>
+                    </span>
+                    I accept the terms and conditions of the <span class="acent-privacy-policy"> Privacy Policy</span></label> 
                   <button class="modal-btn" type="submit">Send</button>
                 </div>
           </form>
