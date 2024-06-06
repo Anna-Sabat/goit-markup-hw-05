@@ -750,6 +750,10 @@ padding: 100px 0
     margin-bottom: 8px;
 }
 
+.modal-field-comment {
+    margin-bottom: 16px;
+}
+
 .modal-field-wrap {
     margin-bottom: 24px;
 }
