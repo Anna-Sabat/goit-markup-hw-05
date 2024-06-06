@@ -444,7 +444,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="foter-social">
           <p class="social-list">Social media</p>
           <ul class="footer-list">
             <li class="footer-item">
@@ -477,17 +477,22 @@
             </li>
           </ul>
         </div>
-        <div class="footer-form">
+        <div class="form">
           <p class="form-subscribe">Subscribe</p>
-          <form class="form">
-            <label class="form-footer"></label>
+          <form class="footer-form">
+            <label
+              class="form-footer"
+              for="footer-email"
+              aria-label="email"
+            ></label>
             <input
-              class="form-input"
-              id="footer-email"
               type="email"
+              id="footer-email"
               name="footer-email"
+              class="footer-input"
               placeholder="E-mail"
             />
+
             <button class="form-btn" type="submit">
               Subscribe
               <svg class="form-icon" width="24" height="24">
@@ -501,7 +506,7 @@
 
     <!--модальне вікно-->
 
-    <div class="is-open modal-overlay">
+    <div class="modal-overlay">
       <div class="modal">
         <button class="btn-modal" type="button">
           <svg class="modal-svg" width="8" height="8">
@@ -512,7 +517,7 @@
 
         <form class="modal-form" name="modal">
           <div class="modal-field">
-            <label class="modal-label" name="username" for="user-name"
+            <label class="modal-label" name="user-name" for="user-name"
               >Name</label
             >
             <div class="modal-field-wrap">
@@ -529,13 +534,15 @@
             </div>
           </div>
           <div class="modal-field">
-            <label class="modal-label" name="phone" for="phone">Phone</label>
+            <label class="modal-label" name="user-phone" for="user-phone"
+              >Phone</label
+            >
             <div class="modal-field-wrap">
               <input
                 class="modal-input"
                 type="text"
-                name="phone"
-                id="phone"
+                name="user-phone"
+                id="user-phone"
                 required
               />
               <svg class="modal-icon" width="18" height="24">
@@ -544,13 +551,15 @@
             </div>
           </div>
           <div class="modal-field">
-            <label class="modal-label" name="e-mail" for="e-mail">E-mail</label>
+            <label class="modal-label" name="user-email" for="user-email"
+              >E-mail</label
+            >
             <div class="modal-field-wrap">
               <input
                 class="modal-input"
-                type="text"
-                name="e-mail"
-                id="e-mail"
+                type="email"
+                name="user-email"
+                id="user-email"
                 required
               />
               <svg class="modal-icon" width="18" height="24">
@@ -581,11 +590,11 @@
             <label for="user-privacy" class="modal-check-text">
               <span class="checkbox-icon">
                 <svg class="check-icon" width="10" height="8">
-                  <use href="images/icons.svg#icon-check"></use>
+                  <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <span class="acent-privacy-policy"> Privacy Policy</span></label
+              <a class="privacy-policy" href="">Privacy Policy</a></label
             >
           </div>
 
