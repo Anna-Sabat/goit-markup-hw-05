@@ -670,10 +670,11 @@ padding: 100px 0
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-field-wrap {
+    position: relative;
     margin-bottom: 16px;
 }
 
@@ -686,9 +687,6 @@ padding: 100px 0
     margin-bottom: 4px;
 }
 
-.modal-field-wrap {
-    position: relative;
-}
 
 .modal-icon {
     fill: #2e2f42;
